@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(43, 43, 82);
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9
+}
+
+.cta {
+    order: 2;
+}
+
+.content-container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+li,
+a,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1; /* off white */
+  text-decoration: none;
+}
+
+.logo {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  margin-right: auto;
+}
+
+.resume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.highlight {
+  list-style: square;
+}
+
+.jumbo-text {
+  font-family: var(--primary-font);
+  color: white;
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.description {
+  font-family: var(--primary-font);
+  color: rgb(149, 161, 188);
+  font-weight: 400;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.highlight {
+  color: rgb(235, 110, 110);
+}
+.highlight2 {
+  color: rgb(255, 153, 0);
+}
+
+/* .light-theme {
+    --: var(--white);
+    --fontColor: var(--black);
+    --btnFontColor: var(--white);
+    --btnBg: var(--black);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnFontColor: var(--black);
+    --btnBg: var(--white);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+} */
+
+.body:focus {
+  background-color: rgba(0, 136, 169, 0.8);
+}

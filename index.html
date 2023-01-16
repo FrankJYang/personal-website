@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" >
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+<body>
+    <div class="background">
+        <div id = "nav-placeholder">
+            <header>
+                <nav>
+                    <ul class="nav_links">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="notes.html">Notes</a></li>
+                    </ul>
+                </nav>
+                <a class="cta" href="#"><button>Contact</button></a> 
+            </header>
+            <div class = "content-container">
+                <div>
+                    <h2 class="jumbo-text">Hi, I'm <span class="highlight">Frank</span> and I am a back-end web developer 
+                        located in <i class="pin-icon icon ion-ios-pin"></i> <span class="highlight2">Austin, Texas</span>.
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function(){
+          $("#nav-placeholder").load("nav.html");
+        });
+    </script>
+</body>
+</html>
